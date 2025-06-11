@@ -59,6 +59,10 @@ section {
   position: relative;
 }
 
+p {
+  text-align: justify;
+}
+
 /* ===== CUSTOM CURSOR ===== */
 .cursor {
   position: fixed;
