@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logoku.png" alt="Logo Samuel Vikto">
+                </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="reveal-text">Hello, I'm <span class="highlight">Samuel Viktorio Togatorop</span></h1>
+                <h2 class="reveal-text delay-1">Program Developer & UI/UX Enthusiast</h2>
+                <p class="reveal-text delay-2">Bringing ideas to life through thoughtful code and design</p>
+                <div class="cta-buttons reveal-text delay-3">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                <div class="social-icons reveal-text delay-4">
+                    <a href="https://github.com/samueltogatorop" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/samuel-togatorop" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/temaiho?s=09" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/samueltoga25?igsh=cGp0OHJzc3Vja2Y0" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="fotoku.jpg" alt="Profile Picture">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>I'm a web developer and designer with a strong interest in clean code and thoughtful design. As a student of Information Technology Education, I’m always learning, building, and improving through real world projects.</p>
+                    <p>I focus on writing reusable and maintainable code that not only works well but also feels right. I enjoy working in teams, solving problems, and turning ideas into functional and beautiful websites.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-title">Name:</span>
+                            <span class="info-value">Samuel Viktorio Togatorop</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Email:</span>
+                            <span class="info-value">samuelvicto181@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Location:</span>
+                            <span class="info-value">Surabaya, Indonesia</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn primary">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="HTML">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="CSS">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Python">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h4>Python</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="PHP">
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <h4>PHP</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="MySQL">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>MySQL</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Design Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Figma">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <h4>Figma</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Website</button>
+                <button class="filter-btn" data-filter="app">Mobile</button>
+                <button class="filter-btn" data-filter="program">Program</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item" data-category="web">
+                    <div class="project-image">
+                        <img src="pakaian.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Fashion E-commerce Website</h3>
+                                <p>Web Design / Development</p>
+                                <a href="https://github.com/samueltogatorop/StyleHeaven-Website-Penjualan-Pakaian" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="app">
+                    <div class="project-image">
+                        <img src="app.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Mountain Tracking App</h3>
+                                <p>Mobile App Development</p>
+                                <a href="https://github.com/samueltogatorop/Mountify-Aplikasi-Tracking-Gunung" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="program">
+                    <div class="project-image">
+                        <img src="prediksi.png" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Battery Charging Prediction</h3>
+                                <p>Program Development</p>
+                                <a href="https://github.com/samueltogatorop/Program-Prediksi-Waktu-Pengisian-Baterai" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="program">
+                    <div class="project-image">
+                        <img src="zeus.png" alt="Project 4">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Electronic Cashier</h3>
+                                <p>Program Development</p>
+                                <a href="https://github.com/samueltogatorop/ZeusTech-Kasir-Elektronik" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="program">
+                    <div class="project-image">
+                        <img src="suhu.png" alt="Project 5">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Temperature Prediction</h3>
+                                <p>Program Development</p>
+                                <a href="https://github.com/samueltogatorop/Temperature-Forecast-Prediksi-Nilai-Suhu" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>samuelvicto181@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Surabaya, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+62 852 6105 2186</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/myzjelpw" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Samuel Viktorio Togatorop. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
